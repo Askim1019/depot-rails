@@ -31,7 +31,7 @@ ActiveRecord::Schema.define(version: 2018_09_25_192305) do
 
   create_table "orders", force: :cascade do |t|
     t.string "name"
-    t.text "adress"
+    t.text "address"
     t.string "email"
     t.integer "pay_type"
     t.datetime "created_at", null: false
